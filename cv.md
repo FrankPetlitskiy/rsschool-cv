@@ -12,3 +12,9 @@ My name is Frank.
 2. Experience of 5.5 years in the field of sales.
 3. This year I'll plan to take top places in RSschool and start working in a new specialty _frontend developer_
 4. I speak English at **A2** level;
+## Skills ##
+* css basic
+* js basic
+* html basic
+* git basic 
+####
