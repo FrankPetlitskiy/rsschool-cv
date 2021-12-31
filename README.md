@@ -1,1 +1,1 @@
-https://FrankPetlitskiy.github.io/rsschool-cv/
+https://FrankPetlitskiy.github.io/rsschool-cv/cv
