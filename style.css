@@ -7,10 +7,16 @@ body{
     justify-content: space-between; 
     background-color: rgb(119, 185, 243);
 }
+* {
+    box-sizing: border-box;
+  }
   .container {
     max-width: 1440px;
     margin: 0 auto;
   }
+  html {
+    scroll-behavior: smooth; }
+
   .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -18,21 +24,17 @@ body{
     list-style: none;
     
   }
+
   .nav-link {
-    padding: 0 80px;
+    padding: 0 65px;
     line-height: 50px;
     color: white;
     font-size: 35px;
     text-decoration: none;
+    transition: .3s;
   }
-html {
-    scroll-behavior: smooth; 
-  }
-  
+  a.nav-link:hover, a.nav-link:active {font-size: 200%;}
 
-* {
-    box-sizing: border-box;
-  }
   .header{
     border: 1px solid;
     background-color: rgb(94, 165, 228) ;
@@ -43,4 +45,11 @@ html {
   .footer {
     border: 1px solid red
   }
-  
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
