@@ -20,6 +20,10 @@ body{
   html {
     scroll-behavior: smooth; }
 
+    .header {
+        border-bottom: 1px solid #9297ac;
+    }
+
   .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -37,10 +41,6 @@ body{
 
   .header{
     background-color: #c1c8e4 ;
-  }
-
-  .main{
-    border: 1px solid #9297ac;
   }
   .main-container {
     display: flex;
@@ -103,8 +103,25 @@ body{
       border-radius: 50%;
 
   }
-
-  .footer {
-    border: 1px solid red
+  .footer{
+    border-top: 1px solid #9297ac;
   }
-  
+
+  .foot-list{
+    background-color: #c1c8e4 ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+    .foot-link {
+        padding: 0px 0px 0px 141px;
+        line-height: 50px;
+        color: #112d32;
+        font-size: 45px;
+        text-decoration: none;
+        transition: .3s;}
+
+    a.foot-link:hover, a.foot-link:active {font-size: 200%;}
+        
